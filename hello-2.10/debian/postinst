@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+set -x
+
+echo "this is a test from Wenn-Yi Lin"
+
+exit 0

@@ -8,5 +8,8 @@ override_dh_auto_clean:
 override_dh_installdocs:
 	dh_installdocs NEWS
 
+override_dh_install:
+	dh_install testing.sh usr/bin
+
 override_dh_builddeb:
 	dh_builddeb -- -Zzstd
